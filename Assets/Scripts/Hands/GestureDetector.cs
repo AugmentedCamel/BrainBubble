@@ -203,7 +203,7 @@ public class GestureDetector : MonoBehaviour
         }
 
         // so in the end we can return from the function the exact gesture we want to do
-        Debug.Log("recognized: " + currentGesture.name);
+        //Debug.Log("recognized: " + currentGesture.name);
         return currentGesture;
     }
     
@@ -232,7 +232,7 @@ public class GestureDetector : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Save file not found in " + path);
+            //Debug.LogError("Save file not found in " + path);
         }
     }
     

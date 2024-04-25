@@ -8,9 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BrainBubblev1.unity
     guid: b9a8bcc7fed42764ca9b645089107e68
+  - enabled: 0
+    path: Assets/Scenes/BrainBubbleV2.unity
+    guid: de182ec903fceaf4fa966ecd5fdaad71
+  - enabled: 1
+    path: Assets/Scenes/BrainBubbleV3.unity
+    guid: 69ffbafbcd7282147985927b89f0604f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 037b70e9249d975469ab6cd3e0eb9219,
       type: 2}

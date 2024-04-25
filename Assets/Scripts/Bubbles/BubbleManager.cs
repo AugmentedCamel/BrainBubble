@@ -35,6 +35,7 @@ public class BubbleManager : MonoBehaviour
         if (_bubble == null) { return;}
         _activeBubbles.Add(_bubble.GetComponent<Bubble>());
         _bubble.GetComponent<Bubble>().ReleaseBubble();
+        
         _bubble = null;
     }
 
